@@ -1,0 +1,10 @@
+cabal-version:      2.4
+name:               fireworks
+version:            0.1.0.0
+
+executable fireworks
+  hs-source-dirs:   .
+  main-is:          Fireworks.hs
+  ghc-options:      -main-is Fireworks
+  build-depends:    base, containers, random
+  default-language: GHC2021
